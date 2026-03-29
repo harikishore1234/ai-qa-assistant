@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Q&A Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Q&A Assistant</h1>
+            <p class="subtitle">Ask any question and get instant AI-powered answers</p>
+        </div>
+        
+        <div class="form-group">
+            <label for="question">Your Question:</label>
+            <textarea 
+                id="question" 
+                placeholder="Ask your question here... (e.g., Explain quantum computing, How does photosynthesis work?)"
+                rows="4"
+            ></textarea>
+        </div>
+        
+        <button onclick="askQuestion()" class="ask-btn">
+            <span id="btn-text">Ask AI</span>
+            <span id="spinner" class="spinner" style="display:none;"></span>
+        </button>
+        
+        <div id="answer-container" class="answer-container" style="display:none;">
+            <h3>Answer:</h3>
+            <div id="answer" class="answer-text"></div>
+            <button onclick="copyAnswer()" class="copy-btn">📋 Copy Answer</button>
+        </div>
+        
+        <div id="error-container" class="error-container" style="display:none;">
+            <p id="error-text"></p>
+        </div>
+        
+        <div class="footer">
+            <p>Built for the technical assessment • Powered by OpenAI</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
