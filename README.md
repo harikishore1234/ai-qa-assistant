@@ -2,17 +2,17 @@
 
 A simple yet professional AI-powered Question Answering application built as a technical assessment for Mackcliff Automation Engineer role.
 
-## 🎯 Features
+##  Features
 
-- ✅ **User Input**: Clean interface to submit questions
-- ✅ **AI-Powered Answers**: Uses OpenAI's GPT-4o-mini model for intelligent responses
-- ✅ **Fast API Backend**: Modern Python FastAPI framework
-- ✅ **Responsive UI**: Beautiful, mobile-friendly frontend
-- ✅ **Error Handling**: Robust error management and user feedback
-- ✅ **Copy Functionality**: Easy to copy and share answers
-- ✅ **Environment Configuration**: Secure API key management using .env files
+-  **User Input**: Clean interface to submit questions
+-  **AI-Powered Answers**: Uses OpenAI's GPT-4o-mini model for intelligent responses
+-  **Fast API Backend**: Modern Python FastAPI framework
+-  **Responsive UI**: Beautiful, mobile-friendly frontend
+-  **Error Handling**: Robust error management and user feedback
+-  **Copy Functionality**: Easy to copy and share answers
+-  **Environment Configuration**: Secure API key management using .env files
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -22,7 +22,7 @@ A simple yet professional AI-powered Question Answering application built as a t
 | **Server** | Uvicorn |
 | **CORS** | FastAPI Middleware |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-qa-assistant/
@@ -36,7 +36,7 @@ ai-qa-assistant/
 └── README.md                # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -50,7 +50,7 @@ ai-qa-assistant/
 3. Click "Create new secret key"
 4. Copy and save the key securely
 
-**⚠️ Important**: Never share your API key or commit it to version control!
+** Important**: Never share your API key or commit it to version control!
 
 ### Step 2: Setup Backend
 
@@ -132,7 +132,7 @@ Now you can:
 3. Get instant AI-powered answers
 4. Copy the answer using the "Copy Answer" button
 
-## 📝 Usage Tips
+##  Usage Tips
 
 **Example Questions:**
 - "Explain quantum computing in simple terms"
@@ -143,13 +143,13 @@ Now you can:
 **Keyboard Shortcut:**
 - Press `Ctrl + Enter` to submit your question quickly
 
-## 🔒 Security Best Practices
+##  Security Best Practices
 
-- ✅ API key stored in `.env` file locally
-- ✅ `.env` file should be added to `.gitignore`
-- ✅ CORS configured for local development
-- ✅ Input validation on both frontend and backend
-- ✅ Error handling without exposing sensitive data
+-  API key stored in `.env` file locally
+-  `.env` file should be added to `.gitignore`
+-  CORS configured for local development
+-  Input validation on both frontend and backend
+-  Error handling without exposing sensitive data
 
 ### Example .gitignore
 
@@ -197,7 +197,7 @@ venv/
 }
 ```
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### "Cannot connect to the API"
 - Ensure the FastAPI server is running on `http://127.0.0.1:8000`
@@ -244,63 +244,3 @@ For production deployment:
 4. Use HTTPS for secure communication
 5. Deploy on cloud platforms (AWS, Heroku, Google Cloud, etc.)
 6. Add logging and monitoring
-
-## 🤝 How to Share for Interview
-
-1. **Zip the project folder:**
-   ```bash
-   # Windows
-   Compress-Archive -Path ai-qa-assistant -DestinationPath ai-qa-assistant.zip
-   
-   # Linux/Mac
-   zip -r ai-qa-assistant.zip ai-qa-assistant
-   ```
-
-2. **Remove sensitive files before sharing:**
-   - Delete the `.env` file (keep `.env.example`)
-   - Delete `__pycache__` folders
-   - Delete `.pyc` files
-
-3. **Create `.env.example` for documentation:**
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
-
-4. **Attach to email** or upload to GitHub
-
-## 📋 Requirements Met
-
-✅ User inputs a question  
-✅ AI returns a relevant answer  
-✅ API-based implementation (OpenAI)  
-✅ Clean code structure  
-✅ Professional UI  
-✅ Fast performance  
-✅ Easy to run and test  
-
-## 👨‍💻 Technologies Demonstrated
-
-- Python backend development (FastAPI)
-- RESTful API design
-- Frontend-backend integration
-- UI/UX design
-- Error handling and validation
-- Environment configuration
-- CORS and security basics
-- AI API integration
-
-## 📞 Support
-
-If you encounter issues:
-1. Check the Troubleshooting section
-2. Review console errors (browser F12 Developer Tools)
-3. Check the FastAPI server logs
-4. Verify all dependencies are installed: `pip list`
-
-## 📄 License
-
-This project is created for the Mackcliff technical assessment.
-
----
-
-**Created with ❤️ for the Mackcliff Automation Engineer Assessment**
